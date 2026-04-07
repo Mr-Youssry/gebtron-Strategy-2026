@@ -5,11 +5,11 @@ const config: QuartzConfig = {
   configuration: {
     pageTitle: "Gebtron Strategy",
     pageTitleSuffix: " | 2026-2030",
-    enableSPA: true,
-    enablePopovers: true,
+    enableSPA: false,
+    enablePopovers: false,
     analytics: null,
     locale: "en-US",
-    baseUrl: "ayoussry.github.io/gebtron-Strategy-2026",
+    baseUrl: "Mr-Youssry.github.io/gebtron-Strategy-2026",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
