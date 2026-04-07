@@ -27,6 +27,8 @@ jobs:
         run: npm install
       - name: Build Quartz
         run: npx quartz build
+      - name: Copy auth config
+        run: cp staticwebapp.config.json public/
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
