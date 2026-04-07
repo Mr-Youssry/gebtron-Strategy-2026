@@ -35,21 +35,34 @@ Gebtron stands at a strategic inflection point. The global industrial machinery 
 
 ---
 
-## Navigate the Strategy
+## The Strategy
 
-### Core Strategy
-- [[strategy/who-we-are|Who We Are]] — Identity, values, edge, and honest weaknesses
-- [[strategy/the-world|The World]] — Industry landscape, EAAS revolution, talent crisis
-- [[strategy/strategic-choices|Strategic Choices]] — Playing to Win, European pivot, AI strategy
-- [[strategy/building-the-team|Building the Team]] — HR strategy, CFO gap, Gebtron Academy
-- [[strategy/partnerships|Partnerships & Alliances]] — Kockele, Pfeiffer, GECOS lessons
-- [[strategy/priorities|Priorities & Horizons]] — Resource allocation, risk register
+Our strategic plan, organized by theme. Start with the Briefing (you're reading it), then dive into what's relevant to your role.
 
-### Planning
-- [[okrs/2026-2027-draft|OKRs Q3 2026 – Q1 2027]] — Draft objectives and key results
+| Section | Read Time | Read When |
+|---------|-----------|-----------|
+| [[strategy/who-we-are\|Who We Are]] | 5 min | You need to understand our identity, values, and honest weaknesses |
+| [[strategy/the-world\|The World]] | 8 min | You need market data and industry context |
+| [[strategy/strategic-choices\|Strategic Choices]] | 6 min | You want to understand our Playing to Win decisions |
+| [[strategy/building-the-team\|Building the Team]] | 5 min | You're involved in hiring, HR, or organizational design |
+| [[strategy/partnerships\|Partnerships & Alliances]] | 7 min | You work with European partners or suppliers |
+| [[strategy/priorities\|Priorities & Horizons]] | 5 min | You need to understand resource allocation and risk |
+| [[okrs/2026-2027-draft\|OKRs (Draft)]] | 3 min | You want to see the quarterly objectives |
 
-### Research Library
-- [[research/gebr-pfeiffer-profile|Gebr. Pfeiffer SE — Company Profile]] — 162-year German mill manufacturer, $80-120M revenue, 15 subsidiaries
+---
+
+## Research Library
+
+A curated library of research organized by topic — not by project. Use what you need, when you need it.
+
+| Category | Documents | What's Inside |
+|----------|-----------|---------------|
+| [[research/industry/index\|🏭 Industry & Market]] | 10 | Deloitte, McKinsey/VDMA, Roland Berger, waste economics, alternative fuels |
+| [[research/eaas/index\|⚡ Energy as a Service]] | 5 | EAAS model, financial specs, C&D economics, CAPEX/OPEX benchmarks |
+| [[research/hr/index\|👥 Human Resources]] | 4 | P&G model, compensation mechanics, ESOP UAE, talent crisis |
+| [[research/finance/index\|💰 Finance & Valuation]] | 6 | German valuation methods, DCF guides, company profiles |
+| [[research/legal/index\|📜 Legal & Commercial]] | 2 | Letter of credit types and review methodology |
+| [[research/frameworks/index\|📖 Strategic Frameworks]] | 2 | Playing to Win and Three Horizons |
 
 ---
 
