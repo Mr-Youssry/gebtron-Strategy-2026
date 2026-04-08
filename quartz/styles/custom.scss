@@ -17,19 +17,39 @@
   margin-bottom: 0.75rem;
 }
 
-// --- Subtle pattern on sidebar background ---
-.left.sidebar {
-  background-image: url("/static/gebtron-pattern.png");
-  background-position: bottom right;
-  background-repeat: no-repeat;
-  background-size: 120px;
-  opacity: 1;
-}
-
-// --- Page title styling ---
 .page-title {
   font-weight: 700 !important;
   letter-spacing: 0.02em;
+}
+
+// --- Darker sidebar with coral border, no pattern ---
+.left.sidebar {
+  background-color: #DAD5CA !important;
+  background-image: none !important;
+  border-right: 3px solid #E84C30;
+  padding-bottom: 10rem; // make room for footer
+  position: relative;
+}
+
+// --- Footer text pinned to bottom of sidebar ---
+.left.sidebar::after {
+  content: "Prepared by Ahmed Youssry\A Confidential — Internal Use Only\A April 2026\A\A © 2026 Gebtron FZCO";
+  white-space: pre-line;
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  right: 2rem;
+  font-size: 0.72rem;
+  color: rgba(27, 77, 62, 0.65);
+  font-style: italic;
+  line-height: 1.6;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(27, 77, 62, 0.2);
+}
+
+// --- Hide the global footer (content moved to sidebar) ---
+footer {
+  display: none !important;
 }
 
 // --- Wider content area (no right sidebar) ---
@@ -68,17 +88,7 @@ blockquote {
   border-radius: 0 6px 6px 0;
 }
 
-// --- Footer branding ---
-footer {
-  opacity: 0.7;
-  font-size: 0.75rem;
-}
-
-footer::after {
-  content: " | Confidential — Internal Use Only | April 2026";
-}
-
-// --- Explorer folder icons ---
+// --- Explorer folder styling ---
 .explorer button {
   font-weight: 600;
 }
@@ -106,6 +116,10 @@ article hr {
     background-image: none;
   }
   .left.sidebar {
-    background-image: none;
+    background-color: transparent !important;
+    border-right: none;
+  }
+  .left.sidebar::after {
+    display: none;
   }
 }
