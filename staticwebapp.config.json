@@ -21,7 +21,7 @@
     },
     {
       "route": "/*",
-      "allowedRoles": ["gebtron-member"]
+      "allowedRoles": ["gebtron_member"]
     }
   ],
   "responseOverrides": {
