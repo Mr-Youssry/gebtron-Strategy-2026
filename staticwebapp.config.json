@@ -12,29 +12,14 @@
   },
   "routes": [
     {
-      "route": "/.auth/login/github",
-      "statusCode": 404
-    },
-    {
-      "route": "/.auth/login/twitter",
-      "statusCode": 404
-    },
-    {
       "route": "/*",
       "allowedRoles": ["gebtron_member"]
     }
   ],
   "responseOverrides": {
     "401": {
-      "redirect": "/.auth/login/aad",
-      "statusCode": 302
-    },
-    "403": {
-      "rewrite": "/access-denied.html",
-      "statusCode": 403
+      "statusCode": 302,
+      "redirect": "/.auth/login/aad"
     }
-  },
-  "globalHeaders": {
-    "X-Content-Type-Options": "nosniff"
   }
 }
