@@ -21,17 +21,13 @@
     },
     {
       "route": "/*",
-      "allowedRoles": ["gebtron-member"]
+      "allowedRoles": ["authenticated"]
     }
   ],
   "responseOverrides": {
     "401": {
       "redirect": "/.auth/login/aad",
       "statusCode": 302
-    },
-    "403": {
-      "rewrite": "/access-denied.html",
-      "statusCode": 403
     }
   },
   "globalHeaders": {
