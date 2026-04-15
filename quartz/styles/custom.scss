@@ -32,28 +32,68 @@
   letter-spacing: 0.02em;
 }
 
-// --- Darker sidebar, no pattern, no border ---
+// --- Darker sidebar, no pattern, scrollable ---
 .left.sidebar {
   background-color: #DAD5CA !important;
   background-image: none !important;
-  padding-bottom: 10rem; // make room for footer
   position: relative;
+  display: flex;
+  flex-direction: column;
+  max-height: 100vh;
+  overflow: hidden;
 }
 
-// --- Footer text pinned to bottom of sidebar ---
+// --- Explorer scrollable with proper height ---
+.explorer-content {
+  overflow-y: auto !important;
+  max-height: calc(100vh - 220px) !important; // room for logo+search+footer
+  scrollbar-width: thin;
+  scrollbar-color: rgba(27, 77, 62, 0.25) transparent;
+
+  &::-webkit-scrollbar {
+    width: 4px;
+  }
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: rgba(27, 77, 62, 0.25);
+    border-radius: 2px;
+  }
+}
+
+// --- Compact explorer items (prevent 2-line wrapping) ---
+.explorer-content ul li > a,
+.folder-container div > a,
+.folder-container div > button span {
+  font-size: 0.82rem !important;
+  line-height: 1.35rem !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px;
+  display: inline-block !important;
+}
+
+// Folder names slightly larger
+.folder-container div > a,
+.folder-container div > button span {
+  font-size: 0.88rem !important;
+  max-width: 180px;
+}
+
+// --- Footer text at bottom of sidebar (not absolute, flows after content) ---
 .left.sidebar::after {
   content: "Prepared by Ahmed Youssry\A Confidential — Internal Use Only\A April 2026\A\A © 2026 Gebtron FZCO";
   white-space: pre-line;
-  position: absolute;
-  bottom: 2rem;
-  left: 2rem;
-  right: 2rem;
-  font-size: 0.72rem;
-  color: rgba(27, 77, 62, 0.65);
+  flex-shrink: 0;
+  margin-top: auto;
+  padding: 1rem 1.5rem 1.5rem;
+  font-size: 0.7rem;
+  color: rgba(27, 77, 62, 0.55);
   font-style: italic;
-  line-height: 1.6;
-  padding-top: 1rem;
-  border-top: 1px solid rgba(27, 77, 62, 0.2);
+  line-height: 1.5;
+  border-top: 1px solid rgba(27, 77, 62, 0.15);
 }
 
 // --- Hide the global footer (content moved to sidebar) ---

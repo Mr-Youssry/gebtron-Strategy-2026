@@ -28,7 +28,49 @@ export const defaultContentPageLayout: PageLayout = {
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
-    Component.Explorer(),
+    Component.Explorer({
+      title: "Explorer",
+      sortFn: (a, b) => {
+        // Custom order for top-level folders
+        const order = ["strategy", "okrs", "research", "eaas", "meetings"]
+        const aName = a.slugSegment?.toLowerCase() ?? ""
+        const bName = b.slugSegment?.toLowerCase() ?? ""
+        const aIdx = order.indexOf(aName)
+        const bIdx = order.indexOf(bName)
+        // If both are in the order list, sort by position
+        if (aIdx !== -1 && bIdx !== -1) return aIdx - bIdx
+        // Ordered items come before unordered
+        if (aIdx !== -1) return -1
+        if (bIdx !== -1) return 1
+        // Folders before files
+        if (a.isFolder && !b.isFolder) return -1
+        if (!a.isFolder && b.isFolder) return 1
+        // Alphabetical fallback
+        return aName.localeCompare(bName, undefined, { numeric: true })
+      },
+      mapFn: (node) => {
+        // Friendly display names for folders
+        const names = {
+          "strategy": "Strategy",
+          "okrs": "Plans & OKRs",
+          "research": "Research Library",
+          "eaas": "EAAS",
+          "meetings": "Meetings",
+          "industry": "Industry & Market",
+          "finance": "Finance & Valuation",
+          "hr": "Human Resources",
+          "legal": "Legal & Commercial",
+          "frameworks": "Strategic Frameworks",
+          "market-research": "Market Research",
+          "africa": "Africa",
+          "europe": "Europe",
+        }
+        const key = node.slugSegment?.toLowerCase() ?? ""
+        if (names[key]) {
+          node.displayName = names[key]
+        }
+      },
+    }),
   ],
   right: [],
 }
@@ -40,7 +82,49 @@ export const defaultListPageLayout: PageLayout = {
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
-    Component.Explorer(),
+    Component.Explorer({
+      title: "Explorer",
+      sortFn: (a, b) => {
+        // Custom order for top-level folders
+        const order = ["strategy", "okrs", "research", "eaas", "meetings"]
+        const aName = a.slugSegment?.toLowerCase() ?? ""
+        const bName = b.slugSegment?.toLowerCase() ?? ""
+        const aIdx = order.indexOf(aName)
+        const bIdx = order.indexOf(bName)
+        // If both are in the order list, sort by position
+        if (aIdx !== -1 && bIdx !== -1) return aIdx - bIdx
+        // Ordered items come before unordered
+        if (aIdx !== -1) return -1
+        if (bIdx !== -1) return 1
+        // Folders before files
+        if (a.isFolder && !b.isFolder) return -1
+        if (!a.isFolder && b.isFolder) return 1
+        // Alphabetical fallback
+        return aName.localeCompare(bName, undefined, { numeric: true })
+      },
+      mapFn: (node) => {
+        // Friendly display names for folders
+        const names = {
+          "strategy": "Strategy",
+          "okrs": "Plans & OKRs",
+          "research": "Research Library",
+          "eaas": "EAAS",
+          "meetings": "Meetings",
+          "industry": "Industry & Market",
+          "finance": "Finance & Valuation",
+          "hr": "Human Resources",
+          "legal": "Legal & Commercial",
+          "frameworks": "Strategic Frameworks",
+          "market-research": "Market Research",
+          "africa": "Africa",
+          "europe": "Europe",
+        }
+        const key = node.slugSegment?.toLowerCase() ?? ""
+        if (names[key]) {
+          node.displayName = names[key]
+        }
+      },
+    }),
   ],
   right: [],
 }
