@@ -8,7 +8,11 @@ title: Research Library
 
 ## Browse by Category
 
-### 🌍 [[research/market-research/index|Africa Market Research]] ⭐ NEW
+### 🇪🇺 [[research/market-research/european-expansion-index|European Expansion Playbook]] ⭐ NEW
+How to acquire a European company and where to base operations. SBA-equivalent financing (10% equity, 80% leverage), 5-country operations base comparison, succession deal sourcing, legal/tax structuring.
+*5 documents | 50+ min total reading*
+
+### 🌍 [[research/market-research/index|Africa Market Research]]
 EAAS expansion into Sub-Saharan Africa. 15 countries screened, 6 shortlisted, one recommended first market. Country scoring matrix, EAAS feasibility, competitive landscape, entry strategy.
 *6 documents | 60+ min total reading*
 
