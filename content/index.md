@@ -37,26 +37,39 @@ Gebtron stands at a strategic inflection point. The global industrial machinery 
 
 ## The Strategy
 
-Our strategic plan, organized by theme. Start with the Briefing (you're reading it), then dive into what's relevant to your role.
+Our strategic plan, organized by theme. All sections are v0.1 drafts — under active development.
 
-| Section | Read Time | Read When |
-|---------|-----------|-----------|
-| [[strategy/who-we-are\|Who We Are]] | 5 min | You need to understand our identity, values, and honest weaknesses |
-| [[strategy/the-world\|The World]] | 8 min | You need market data and industry context |
-| [[strategy/strategic-choices\|Strategic Choices]] | 6 min | You want to understand our Playing to Win decisions |
-| [[strategy/building-the-team\|Building the Team]] | 5 min | You're involved in hiring, HR, or organizational design |
-| [[strategy/partnerships\|Partnerships & Alliances]] | 7 min | You work with European partners or suppliers |
-| [[strategy/priorities\|Priorities & Horizons]] | 5 min | You need to understand resource allocation and risk |
-| [[okrs/2026-2027-draft\|OKRs (Draft)]] | 3 min | You want to see the quarterly objectives |
+| # | Section | Read When |
+|---|---------|-----------|
+| 01 | [[strategy/who-we-are\|Who We Are]] | You need to understand our identity, values, and honest weaknesses |
+| 02 | [[strategy/the-world\|The World]] | You need market data and industry context |
+| 03 | [[strategy/strategic-choices\|Strategic Choices]] | You want to understand our Playing to Win decisions |
+| 04 | [[strategy/building-the-team\|Building the Team]] | You're involved in hiring, HR, or organizational design |
+| 05 | [[strategy/partnerships\|Partnerships & Alliances]] | You work with European partners or suppliers |
+| 06 | [[strategy/priorities\|Priorities & Horizons]] | You need to understand resource allocation and risk |
+| 07 | [[strategy/okrs\|OKRs]] | You want to see the quarterly objectives |
+| 08 | [[strategy/bootcamp-discussion\|Bootcamp Discussion Guide]] | You're preparing for the June 2026 strategy bootcamp |
+| 09 | [[strategy/swot-tows\|SWOT & TOWS Analysis]] | You want to see the strategic logic behind priorities |
+
+---
+
+## Plans & OKRs
+
+| Document | What's Inside |
+|----------|---------------|
+| [[strategy/okrs\|OKRs Q3 2026 – Q1 2027]] | 11 objectives across 3 quarters, derived from TOWS analysis |
+| [[strategy/swot-tows\|SWOT & TOWS Analysis]] | 41 SWOT items, 23 TOWS strategies, 3-tier priority synthesis |
+| [[strategy/bootcamp-discussion\|Bootcamp Discussion Guide]] | 93 open items for the June 2026 bootcamp — decisions, research, data |
 
 ---
 
 ## Research Library
 
-A curated library of research organized by topic — not by project. Use what you need, when you need it.
+A curated library of research organized by topic. [[research/index|Browse all →]]
 
 | Category | Documents | What's Inside |
 |----------|-----------|---------------|
+| [[research/market-research/index\|🗺 Market Research]] | 11 | **Africa** (6 countries shortlisted) + **Europe** (acquisition, operations base, deal sourcing) |
 | [[research/industry/index\|🏭 Industry & Market]] | 10 | Deloitte, McKinsey/VDMA, Roland Berger, waste economics, alternative fuels |
 | [[research/eaas/index\|⚡ Energy as a Service]] | 5 | EAAS model, financial specs, C&D economics, CAPEX/OPEX benchmarks |
 | [[research/hr/index\|👥 Human Resources]] | 4 | P&G model, compensation mechanics, ESOP UAE, talent crisis |
@@ -66,4 +79,10 @@ A curated library of research organized by topic — not by project. Use what yo
 
 ---
 
-*Prepared by Ahmed Youssry | Confidential — Internal Use Only | April 2026*
+## [[progress|Progress]]
+
+Open tasks and site changelog. [[progress|View →]]
+
+---
+
+*Prepared by Ahmed Youssry | Confidential — Internal Use Only*
