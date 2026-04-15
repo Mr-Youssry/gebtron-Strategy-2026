@@ -8,6 +8,10 @@ title: Research Library
 
 ## Browse by Category
 
+### 🌍 [[research/market-research/index|Africa Market Research]] ⭐ NEW
+EAAS expansion into Sub-Saharan Africa. 15 countries screened, 6 shortlisted, one recommended first market. Country scoring matrix, EAAS feasibility, competitive landscape, entry strategy.
+*6 documents | 60+ min total reading*
+
 ### 🏭 [[research/industry/index|Industry & Market]]
 European machinery sector, EAAS market growth, waste economics, alternative fuels. Data from Deloitte, McKinsey/VDMA, Roland Berger.
 *10 documents | 60+ min total reading*
