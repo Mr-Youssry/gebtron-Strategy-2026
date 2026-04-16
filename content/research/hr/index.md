@@ -49,3 +49,14 @@ title: "Human Resources Research"
 💡 **Key takeaway:** UAE has no specific ESOP legislation — structures are contractual. Covers legal framework, structuring options, allocation methodology, tax implications, M&A considerations, implementation costs.
 
 - [[esop-uae-research|Full UAE ESOP Guide →]]
+
+---
+
+## CFO Guide — Role Design, Responsibilities & Compensation
+*⏱ 15 min read*
+
+📌 **Read when:** You're planning the CFO hire, defining the role scope, or discussing full-time vs. fractional.
+
+💡 **Key takeaway:** Gebtron needs a project finance architect, not a traditional CFO. Start with a fractional CFO in UAE ($49-114K/year) who can structure the first EAAS deal. The role pays for itself with one contract.
+
+- [[cfo-guide|Full Guide — Role Design, Phased Responsibilities, Compensation Benchmarks & Interview Framework →]]
