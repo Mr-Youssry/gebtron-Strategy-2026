@@ -24,9 +24,13 @@ The EAAS business model, financial model specs, C&D waste-to-RDF economics, CAPE
 P&G "Build From Within" model, compensation mechanics, ESOP in the UAE, talent crisis research.
 *4 documents | 30+ min total reading*
 
+### 🤝 [[research/Europe-Partnership/index|European Partners & Acquisition Candidates]] ⭐ NEW
+Company profiles for strategic partners and acquisition targets — Gebr. Pfeiffer (mill partner), GECOS & Louise (merger targets), GöMa (acquisition candidate).
+*4 documents | 25+ min total reading*
+
 ### 💰 [[research/finance/index|Finance & Valuation]]
-German valuation methods, DCF guides, WACC/Beta explained, company profiles (Pfeiffer, GECOS, Louise).
-*6 documents | 45+ min total reading*
+German valuation methods, DCF guides, WACC/Beta explained.
+*3 documents | 22+ min total reading*
 
 ### 📜 [[research/legal/index|Legal & Commercial]]
 Letter of credit types, LC review methodology, trade finance fundamentals.

@@ -41,29 +41,4 @@ title: "Finance & Valuation Research"
 
 ## Company Profiles
 
-### Gebr. Pfeiffer SE
-*⏱ 8 min read*
-
-📌 **Read when:** You're discussing mill partnerships, the cement mill tender, or Africa expansion.
-
-💡 **Key takeaway:** 162-year German company, $80-120M est. revenue, 15 subsidiaries (including Egypt & Dubai offices), natural EAAS integration partner.
-
-- [[gebr-pfeiffer-profile|Full Company Profile →]]
-
-### GECOS GmbH
-*⏱ 5 min read*
-
-📌 **Read when:** You need background on the German partner entity.
-
-💡 **Key takeaway:** German engineering company, EUR 4M revenue, bulk material conveying. Holds manufacturing licenses from Louise Engineering.
-
-- [[gecos-profile|Company Profile →]]
-
-### Louise Engineering Limited
-*⏱ 4 min read*
-
-📌 **Read when:** You need to understand the IP licensing structure.
-
-💡 **Key takeaway:** UK-based IP holder. EUR 93K revenue from license fees (2% machines, 5% spare parts). Valued at EUR 870K.
-
-- [[louise-profile|Company Profile →]]
+> Company profiles for Gebr. Pfeiffer, GECOS GmbH, and Louise Engineering Limited have moved to the [[research/Europe-Partnership/index|European Partners & Acquisition Candidates]] section.
