@@ -39,3 +39,7 @@ Letter of credit types, LC review methodology, trade finance fundamentals.
 ### 📖 [[research/frameworks/index|Strategic Frameworks]]
 Playing to Win and Three Horizons — the frameworks behind our strategy.
 *2 documents | 10 min total reading*
+
+### 🤖 [[research/ai/index|AI in the Engineering Firm]] ⭐ NEW
+Futurist corpus (Kurzweil, Gartner, WEF), open-source agent frameworks (OpenClaw, Hermes), CAD copilots, digital twins, smart glasses, drones, cobots, and the human-AI coworker thesis. Source material for the AI-Augmented Engineer strategy direction.
+*11 documents | 71 min total reading*
